@@ -1,0 +1,64 @@
+{
+ "A: technical ceiling (all zstd, new format, side-information free)": {
+  "PB_per_year": [
+   48.83917458914095,
+   74.46859764267788,
+   113.37081863534863
+  ],
+  "MUSD_per_year": [
+   1.2113888260522439,
+   2.5780267987425143,
+   5.095257718524225
+  ]
+ },
+ "B: archival + static tables only (level 19 class, dictionaries)": {
+  "PB_per_year": [
+   4.7327262969089565,
+   11.26138060714669,
+   21.380475422152546
+  ],
+  "MUSD_per_year": [
+   0.13539362142790548,
+   0.3733973996359974,
+   0.8994979146758553
+  ]
+ },
+ "C: today's zstd format": {
+  "PB_per_year": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "MUSD_per_year": [
+   0.0,
+   0.0,
+   0.0
+  ]
+ },
+ "reference: FSE vs Huffman contribution (report)": {
+  "PB_per_year": [
+   1500,
+   1900,
+   3300
+  ],
+  "MUSD_per_year": [
+   26,
+   45,
+   120
+  ]
+ },
+ "measured_fraction": {
+  "1": {
+   "b_tunedp": 0.00016411384607340995,
+   "b_dt": 0.00017229406616150363
+  },
+  "3": {
+   "b_tunedp": 0.0003896110868534523,
+   "b_dt": 0.00041514609828026573
+  },
+  "19": {
+   "b_tunedp": 0.000568836423031396,
+   "b_dt": 0.0006049916022760141
+  }
+ }
+}

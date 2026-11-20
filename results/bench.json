@@ -1,0 +1,68 @@
+[
+ {
+  "stream": "LL",
+  "L": 512,
+  "n": 22,
+  "zstd": {
+   "table": 0,
+   "bits": 27492818,
+   "bps": 1.374641,
+   "enc_Msym_s": 152.4,
+   "dec_Msym_s": 162.0,
+   "roundtrip": 1
+  },
+  "dt": {
+   "table": 1,
+   "bits": 27479373,
+   "bps": 1.373969,
+   "enc_Msym_s": 181.5,
+   "dec_Msym_s": 155.8,
+   "roundtrip": 1
+  },
+  "exact_eval_ms": 0.2987480163574219
+ },
+ {
+  "stream": "ML",
+  "L": 512,
+  "n": 44,
+  "zstd": {
+   "table": 0,
+   "bits": 77396351,
+   "bps": 3.869818,
+   "enc_Msym_s": 134.1,
+   "dec_Msym_s": 161.7,
+   "roundtrip": 1
+  },
+  "dt": {
+   "table": 1,
+   "bits": 77344260,
+   "bps": 3.867213,
+   "enc_Msym_s": 149.5,
+   "dec_Msym_s": 143.0,
+   "roundtrip": 1
+  },
+  "exact_eval_ms": 0.07437944412231445
+ },
+ {
+  "stream": "OF",
+  "L": 256,
+  "n": 20,
+  "zstd": {
+   "table": 0,
+   "bits": 82613459,
+   "bps": 4.130673,
+   "enc_Msym_s": 114.9,
+   "dec_Msym_s": 162.6,
+   "roundtrip": 1
+  },
+  "dt": {
+   "table": 1,
+   "bits": 82458819,
+   "bps": 4.122941,
+   "enc_Msym_s": 130.4,
+   "dec_Msym_s": 136.9,
+   "roundtrip": 1
+  },
+  "exact_eval_ms": 0.05890369415283203
+ }
+]

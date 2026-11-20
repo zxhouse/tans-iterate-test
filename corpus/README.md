@@ -1,0 +1,3 @@
+# Byte corpus for the Zstandard experiments
+
+The Zstandard experiments (`run_z1.py`, `run_z2.py`, `run_z3.py`, `run_bench.py`) read every `*.bin` file in this folder. In the paper the corpus had 53.8 MB in seven files built by concatenating system files of an Ubuntu 24.04 container: shared libraries (`so.bin`), Python standard-library sources (`py.bin`), licence and documentation texts (`text.bin`), JSON (`json.bin`), TeX sources (`tex.bin`), Go sources (`go.bin`) and CSV (`csv.bin`). The files are not redistributed; any set of `*.bin` files can be used, and the results in `results/z*.json` were obtained with that corpus.

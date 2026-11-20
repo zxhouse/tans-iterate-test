@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "tans-iterate-test: code and data for pre-screened iterate-test construction of tANS tables"
+authors:
+  - family-names: "Kuraś"
+    given-names: "Paweł"
+    affiliation: "Institute of Informatics, Kozminski University"
+  - family-names: "Organiściak"
+    given-names: "Patryk"
+    affiliation: "Department of Complex Systems, Rzeszów University of Technology"
+  - family-names: "Gerka"
+    given-names: "Alicja"
+    affiliation: "Department of Complex Systems, Rzeszów University of Technology"
+  - family-names: "Gacek"
+    given-names: "Maciej"
+    affiliation: "University of Information Technology and Management in Rzeszów"
+  - family-names: "Misiura"
+    given-names: "Faustyna"
+    affiliation: "Jan Grodek State University in Sanok"
+license: MIT
+repository-code: "https://github.com/zxhouse/tans-iterate-test"
+date-released: 2026-11-20

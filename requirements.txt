@@ -1,0 +1,6 @@
+numpy>=2.0
+scipy>=1.12
+matplotlib>=3.8
+zstandard==0.25.0
+pcodec==1.1.0
+vega_datasets==0.9.0
